@@ -1,0 +1,18 @@
+.moment_container{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin: 10px 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px #ccc;
+}
+
+.moment_table{
+    width: 100%;
+}
+
+th{
+    color: #888;
+    text-align: center;
+}

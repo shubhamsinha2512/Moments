@@ -1,0 +1,68 @@
+.create_moment{
+    margin: 20px 10px;
+    display: flex;
+    padding: 1vw 4vw;
+    flex-direction: column;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px #eee;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+.form_group{
+    text-align: left;
+    margin: 0px 30px;
+}
+
+.title{
+    margin: 0 2px;
+    border-bottom: 1px solid grey;
+}
+
+.below{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.bleft{
+    flex: 1;
+}
+
+.bright{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drag_drop{
+    width: 200px;
+    height: 200px;
+    border: 3px dashed #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.browse_image_btn{
+    background-color: #001b30;
+    color: white;
+    padding: 2px 20px;
+    border: none;
+    border-radius: 20px;
+    margin: 5px auto;
+}
+
+.moment_create_btn{
+    border: none;
+    background-color: #001b30;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-top: 40px;
+}

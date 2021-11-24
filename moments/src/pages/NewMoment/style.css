@@ -1,0 +1,8 @@
+.new_moment{
+    display: flex;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}

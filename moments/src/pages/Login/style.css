@@ -1,0 +1,67 @@
+.login_body{
+    padding: 1vw;
+    font-size: 1.5vw;
+}
+
+.page_title h1, .page_title p{
+    margin: 0 auto;
+}
+
+.login_form{
+    max-width: 70vw;
+    margin: 2vw auto;
+    width: 100%;
+}
+
+.input_group{
+    text-align: left;
+    display: inline-block;
+    width: 25vw;
+    margin: 15px 30px;
+    width: 25vw;
+    flex: 1;
+}
+
+.input_group label {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.input_container{
+    margin: 0 0;
+    width: fit-content;
+}
+
+.input_group .input_container{
+    display: flex;
+    align-items: flex-end;
+}
+
+.icon{
+    margin: 0 2px;
+    border-bottom: 1px solid grey;
+}
+
+.input{
+    margin: 0 2px;
+    border-bottom: 1px solid grey;
+}
+
+input{
+    border: none;
+    margin: 0 0 2px 2px;
+    font-size: 16px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.submit_btn{
+    margin: 25px 0;
+    background-color: #001b30;
+    padding: 5px 45px;
+    border-radius: 5vw;
+    border: none;
+    color: white;
+}

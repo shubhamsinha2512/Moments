@@ -1,0 +1,46 @@
+.side_nav{
+    width: 20vw;
+    box-sizing: border-box;
+    box-shadow: 2px 0px 5px #ddd;
+    height: 100vh;
+    flex: 1;
+}
+
+.logo{
+    width: 10vw;
+    padding: 25px;
+}
+
+.nav{
+    margin-top: 10vh;
+}
+
+.nav_item{
+    background-color: white;
+    color: #001b30;
+    padding: 10px 20%;
+    margin: 10px auto;
+    text-align: left;
+}
+
+.nav_item:hover{
+    background-color: #eee;
+    color: #001b30;
+}
+
+.nav_item:active{
+    background-color: #001b30;
+    color: white;
+}
+
+.nav_item:visited{
+    background-color: #001b30;
+    color: white;
+}
+
+.new_moment_btn{
+    background-color: #001b30;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}

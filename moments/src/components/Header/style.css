@@ -1,0 +1,31 @@
+.header{
+    width: 80vw;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px #eee;
+}
+
+.avatar{
+    width: 25px;
+    height: 25px;
+    border: 2px solid #444;
+    margin: 0 20px;
+}
+
+.header_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
+.logout{
+    padding: 3px 8px;
+    border: none;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+}
